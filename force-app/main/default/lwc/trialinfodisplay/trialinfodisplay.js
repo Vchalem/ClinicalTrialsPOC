@@ -4,7 +4,6 @@ import { getRecord } from 'lightning/uiRecordApi';
 const FIELDS = [
     'Contact.Name',
     'Contact.Email',
-    'Contact.Title',
     'Contact.HealthCloudGA__Gender__c',
     'Contact.HealthCloudGA__Age__c',
     //'Contact.CleanStatus',
