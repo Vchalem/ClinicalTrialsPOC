@@ -6,8 +6,7 @@ const FIELDS = [
     'Contact.Email',
     'Contact.HealthCloudGA__Gender__c',
     'Contact.HealthCloudGA__Age__c',
-    //'Contact.CleanStatus',
-    //'Contact.MailingAddress'
+    'Contact.MailingAddress' //state
 
 ];
 
@@ -18,21 +17,14 @@ export default class trialinfodisplay extends LightningElement {
     @wire(getRecord, { recordId: '$recordId', fields: FIELDS })
     contact;
 
-    get name() {
-        return this.contact.data.fields.Name.value;
-    }
-    get email() {
-        return this.contact.data.fields.Email.value;
-    }
-    get title() {
-        return this.contact.data.fields.Title.value;
-    }
-    get gender() {
-        return this.contact.data.fields.HealthCloudGA__Gender__c.value;
-    }
-    get age(){
-        return this.contact.data.fields.HealthCloudGA__Age__c.value;
-    } 
+    //send recordID to callout 
+    //do call to apx class - 
+    //return to apx class the test data to display
+
+//url concatenate
+//https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=  NCI-2017-01240
+
+
 
 
 }
