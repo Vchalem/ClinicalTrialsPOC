@@ -2,9 +2,15 @@ public class CT_ClinicalTrialUtil {
     
     // Wrapper class to hold the weather in the format we want
     public class Trial {
-        public String title { get; set; }        // trial.brief_title
-        public String summary { get; set; }      // trial.brief_summary
-        public String purpose { get; set; }      // trial.primary_purpose.primary_purpose_code
+        public String nci_id { get; set; }           // trial.nci_id
+        public String brief_title { get; set; }        // trial.brief_title
+        public String brief_summary { get; set; }      // trial.brief_summary
+        
+        public Trial(String idString, String titleString, String summaryString) {
+            nci_id = idString;
+            brief_title = titleString;
+            brief_summary = summaryString;
+        }
     }
     
     // Query the record to get input parameters, result to be used in Lightning Components (record based view)
@@ -34,7 +40,7 @@ public class CT_ClinicalTrialUtil {
         
         // Make the callout if we have a valid state and gender
         if (String.isNotBlank(state) && String.isNotBlank(gender)) {
-            result = makeCallout(state,gender,trialObjects);
+            result = makeCallout(state,gender,trials);
         }
 
         // Return the serialized trial wrapper class, or null
@@ -42,7 +48,7 @@ public class CT_ClinicalTrialUtil {
     }
     
     // Method to perform callout, using state and gender as input
-    public static String makeCallout(String state, String gender, List<Object> trialObjects){
+    public static String makeCallout(String state, String gender, List<CT_ClinicalTrialUtil.Trial> trials){
         
         // Define the response to send to caller
         String outcomeMsg;
@@ -50,9 +56,9 @@ public class CT_ClinicalTrialUtil {
         // Define basic information (could move this to protected custom settings)
         String endpoint = 'https://clinicaltrialsapi.cancer.gov'; // add to "Remote Site Settings"
         String resource = '/v1/clinical-trials?';
-        String filter = 'sites.org_state_or_province=' + state + '&eligibility.structured.gender=' + gender;
-        String inclusions = '&include=brief_title&include=primary_purpose.primary_purpose_code&include=eligibility.structured.min_age&include=eligibility.structured.max_age';
-
+        String filter = 'current_trial_status=active&sites.org_state_or_province=' + state + '&eligibility.structured.gender=' + gender;
+        String inclusions = '&include=nci_id&include=brief_title&include=brief_summary&include=primary_purpose.primary_purpose_code';
+        
         String method = 'GET';  
         
         // Check to ensure a callout can be performed using the Limits class. 
@@ -91,13 +97,29 @@ public class CT_ClinicalTrialUtil {
                         // The deserialized response contains the expected key!
                         outcomeMsg = 'Success!';
                         
-                        // Cast the values in the 'trials' key as a list
-                        List<Object> trials = (List<Object>) results.get('trials');  
-                        
-                        /*
-                        trial = (CT_ClinicalTrialutil.Trial) JSON.deserializeStrict(response.getBody(), CT_ClinicalTrialutil.Trial.class);
-                        */                              
-                               
+                        // Parse entire JSON response.
+                        JSONParser parser = JSON.createParser(res.getBody());
+                        while (parser.nextToken() != null) {
+                            // Start at the array of trials.
+                            if (parser.getCurrentToken() == JSONToken.START_ARRAY) {
+                                while (parser.nextToken() != null) {
+                                    // Advance to the start object marker to
+                                    //  find next invoice statement object.
+                                    if (parser.getCurrentToken() == JSONToken.START_OBJECT) {
+                                        // Read entire invoice object, including its array of line items.
+                                        Trial trial = (CT_ClinicalTrialUtil.Trial)parser.readValueAs(CT_ClinicalTrialUtil.Trial.class);
+                                        system.debug('Trial id: ' + trial.nci_id);
+                                        // For debugging purposes, serialize again to verify what was parsed.
+                                        String s = JSON.serialize(trial);
+                                        system.debug('Serialized trial: ' + s);
+                    
+                                        // Skip the child start array and start object markers.
+                                        parser.skipChildren();
+                                        trials.add(trial);
+                                    }
+                                }
+                            }
+                        }                  
                     } else {
                         outcomeMsg = 'Error: Malformed response';
                     }
@@ -121,7 +143,7 @@ public class CT_ClinicalTrialUtil {
 
         System.debug('Received the following trials:');
         for (Object trial: trials) {
-            CT_ClinicalTrialUtil.Trial nextTrial = new CT_ClinicalTrialUtil.Trial();
+            //CT_ClinicalTrialUtil.Trial nextTrial = new CT_ClinicalTrialUtil.Trial();
             //nextTrial.title = trial.brief_title;
             //nextTrial.summary = trial.brief_summary;
             //nextTrial.purpose = trial.primary_purpose;
