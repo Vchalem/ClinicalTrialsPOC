@@ -51,7 +51,7 @@ public class CT_ClinicalTrialUtil {
         String endpoint = 'https://clinicaltrialsapi.cancer.gov'; // add to "Remote Site Settings"
         String resource = '/v1/clinical-trials?';
         String filter = 'sites.org_state_or_province=' + state + '&eligibility.structured.gender=' + gender;
-        String inclusions = '&include=brief_title&include=brief_summary&include=primary_purpose&include=eligibility.structured.min_age&include=eligibility.structured.max_age';
+        String inclusions = '&include=brief_title&include=brief_summary&include=primary_purpose.primary_purpose_code&include=eligibility.structured.min_age&include=eligibility.structured.max_age';
 
         String method = 'GET';  
         
