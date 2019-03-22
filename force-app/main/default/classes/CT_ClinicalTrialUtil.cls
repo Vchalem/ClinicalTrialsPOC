@@ -23,7 +23,6 @@ public class CT_ClinicalTrialUtil {
         String result = '';
         
         // Output parameters, as list of returned trials
-        List<Object> trialObjects = new List<Object>();
         List<CT_ClinicalTrialUtil.Trial> trials = new List<CT_ClinicalTrialUtil.Trial>();
         
         // Compare the SObject type of the record Id to Contact
@@ -44,7 +43,7 @@ public class CT_ClinicalTrialUtil {
         }
 
         // Return the serialized trial wrapper class, or null
-        return result.equalsIgnoreCase('success!') ? JSON.serialize(trialObjects) : null;
+        return result.equalsIgnoreCase('success!') ? JSON.serialize(trials) : null;
     }
     
     // Method to perform callout, using state and gender as input
@@ -136,20 +135,6 @@ public class CT_ClinicalTrialUtil {
         
         // Return the response
         return outcomeMsg;
-    }
-    
-    // Method to perform callout, using state and gender as input
-    public static String convertToTrials(List<Object> trialObjects, List<CT_ClinicalTrialUtil.Trial> trials){
-
-        System.debug('Received the following trials:');
-        for (Object trial: trials) {
-            //CT_ClinicalTrialUtil.Trial nextTrial = new CT_ClinicalTrialUtil.Trial();
-            //nextTrial.title = trial.brief_title;
-            //nextTrial.summary = trial.brief_summary;
-            //nextTrial.purpose = trial.primary_purpose;
-            System.debug(trial);
-        }
-        return 'Success';
-    }                    
+    }        
     
 }
