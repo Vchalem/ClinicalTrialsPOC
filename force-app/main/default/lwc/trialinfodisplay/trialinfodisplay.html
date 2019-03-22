@@ -3,9 +3,19 @@
       
         <template if:true={contact.data}>
             <div class="slds-m-around_medium">
-             <p>Title: </p>
-             <p>NCI-ID (url):</p>
+             <template if:true={NCI}>
+                <p>Title: </p>
+                <a href={url} class=".slds-text-link">Link to Trials</a>
+                
+                <p class="slds-m-bottom_small">
+                        <lightning-button label="Access Questionare" onclick={handleLoad}></lightning-button>
+                </p>   
+            </template>
 
+            <!--if no data-->
+            <template if:true={error}></template>
+
+           
              </div>
          </template>
         
