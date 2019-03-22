@@ -3,6 +3,7 @@ import { getRecord } from 'lightning/uiRecordApi';
 import getTestData from '@salesforce/apex/CreateTestData.getTestData';
 
 const FIELDS = [
+    //contact fields that are being queried
     'Contact.Name',
     'Contact.Email',
     'Contact.HealthCloudGA__Gender__c',
@@ -19,6 +20,9 @@ export default class trialinfodisplay extends LightningElement {
     @wire(getRecord, { recordId: '$recordId', fields: FIELDS })
     contact;
 
+    //call out with contact ID
+
+    //return apex class with data --
     @wire(getTestData)
     idReturned({ error, data }) {
         if (data){
@@ -32,7 +36,6 @@ export default class trialinfodisplay extends LightningElement {
     
     
     get url(){
-       // var id= "NCI-2017-01240";
         var url = "https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=";
         var link = url.concat(this.NCI);
         return link;
@@ -41,9 +44,5 @@ export default class trialinfodisplay extends LightningElement {
     handleLoad(){
         //will be an action unto a flow screen...
     }
-
-    //send contact recordID to callout 
-    //do call to apx class - 
-    //return to apx class the test data to display
 
 }

@@ -73,29 +73,29 @@
     [
         "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.html",
         {
-            "state": "u",
             "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 735,
             "modifiedTime": 1553230955585,
             "changeTime": 1553230955585,
-            "isWorkspace": false,
-            "contentHash": "245a102f6fa57ef3bdf7ea8b6d0377f468b52002"
+            "contentHash": "245a102f6fa57ef3bdf7ea8b6d0377f468b52002",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.js",
         {
+            "state": "u",
             "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.js",
             "isDirectory": false,
-            "size": 1213,
-            "modifiedTime": 1553230063274,
-            "changeTime": 1553230063274,
-            "contentHash": "7c384c7fe93bb97d1bd0482b5b36443ab4f9e29b",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 1168,
+            "modifiedTime": 1553231155728,
+            "changeTime": 1553231155728,
+            "isWorkspace": false,
+            "contentHash": "391c56cd66eb024734ac49d4c9842a21e9f87480"
         }
     ],
     [
@@ -992,10 +992,10 @@
             "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes/CreateTestData.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 192,
-            "modifiedTime": 1553230939815,
-            "changeTime": 1553230939815,
-            "contentHash": "b954f40e5b70f558cbb706550988c900f205d094"
+            "size": 190,
+            "modifiedTime": 1553231024269,
+            "changeTime": 1553231024269,
+            "contentHash": "5f8ddcd4f32c0dbb028f108c6a515017f15d7833"
         }
     ],
     [
