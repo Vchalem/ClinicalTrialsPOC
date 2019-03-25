@@ -43,7 +43,9 @@ public class CT_ClinicalTrialUtil {
         }
 
         // Return the serialized trial wrapper class, or null
-        return result.equalsIgnoreCase('success!') ? JSON.serialize(trials) : null;
+        String out = result.equalsIgnoreCase('success!') ? JSON.serialize(trials) : null;
+        System.debug('Output: ' + out);
+        return out;
     }
     
     // Method to perform callout, using state and gender as input
