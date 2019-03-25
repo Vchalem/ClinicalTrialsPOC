@@ -6,25 +6,26 @@ import getTrialsForContact from '@salesforce/apex/CT_ClinicalTrialUtil.getTrials
 
 export default class trialinfodisplay extends LightningElement {
     @api recordId;
-    @track NCI;
-    @track recId = ' ';
-
+    @track trials;
+    @track trialsString;
  
+   
+
     //when LWC loads - call apx class w/ contact ID
     @wire(getTrialsForContact, {recordId: '$recordId'})
     wiredContact({ error, data }) {
         if (data) {
-            this.NCI = data;
+            this.trialsString = data;
+            this.trials=JSON.parse(this.trialsString);
             this.error = undefined;
         } else if (error) {
             this.error = error;
-            this.NCI = undefined;
+            this.trialsString = undefined;
+            this.trials=undefined
         }
     }
 
-    get stringJson(){
-        return this.wiredContact.data;
-    }
+    
 }
 
 

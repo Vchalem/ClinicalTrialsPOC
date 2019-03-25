@@ -50,7 +50,7 @@
             "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1553547156290,
+            "modifiedTime": 1553550249159,
             "changeTime": 1553547156290,
             "contentHash": "e25205e6b12eb5d5b904e786961595d398f5603d",
             "isMetadataFile": false,
@@ -180,29 +180,29 @@
     [
         "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.html",
         {
+            "state": "u",
             "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.html",
             "isDirectory": false,
-            "size": 749,
-            "modifiedTime": 1553549431721,
-            "changeTime": 1553549431721,
-            "contentHash": "ac5a739c02a65e46dd8ff91fa13b27228a568523",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 1242,
+            "modifiedTime": 1553553775084,
+            "changeTime": 1553553775084,
+            "isWorkspace": false,
+            "contentHash": "194c8031f9878de2e19a6bc63e570d94912c046f"
         }
     ],
     [
         "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.js",
         {
-            "state": "u",
             "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.js",
             "isDirectory": false,
+            "size": 1355,
+            "modifiedTime": 1553552137453,
+            "changeTime": 1553552137453,
+            "contentHash": "dd43208d60ea33211a0c741c7cfb18c1e456367c",
             "isMetadataFile": false,
-            "size": 1302,
-            "modifiedTime": 1553549489297,
-            "changeTime": 1553549489297,
-            "isWorkspace": false,
-            "contentHash": "f3fe99ecbc62e02589f5268abc0111bf67583184"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1140,14 +1140,13 @@
         {
             "sourcePath": "/Users/vchalem/ClinicalTrialsPOC",
             "isDirectory": true,
-            "size": 352,
-            "modifiedTime": 1553199513068,
-            "changeTime": 1553199513068,
-            "contentHash": "807b7aaa92451ec641bfc0e0a5d2bf0e1e9005a1",
+            "size": 384,
+            "modifiedTime": 1553550015447,
+            "changeTime": 1553550015447,
+            "contentHash": "d1870159c5518f364be1f2bfddb0a4363b8881e9",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": true,
-            "isArtifactRoot": false
+            "isWorkspace": true
         }
     ],
     [
@@ -1155,10 +1154,10 @@
         {
             "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes/CT_ClinicalTrialUtil.cls",
             "isDirectory": false,
-            "size": 6933,
-            "modifiedTime": 1553548531656,
-            "changeTime": 1553548531656,
-            "contentHash": "e2deaa5289e77e109c5044efa2d442f33b35dcd4",
+            "size": 6999,
+            "modifiedTime": 1553550249160,
+            "changeTime": 1553550249160,
+            "contentHash": "d556775fb6df37f27f42a998a2f2e812ba207680",
             "isMetadataFile": false,
             "state": "u"
         }
