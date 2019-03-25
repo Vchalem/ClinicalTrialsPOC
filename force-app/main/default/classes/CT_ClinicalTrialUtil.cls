@@ -14,7 +14,7 @@ public class CT_ClinicalTrialUtil {
     }
     
     // Query the record to get input parameters, result to be used in Lightning Components (record based view)
-    @AuraEnabled
+    @AuraEnabled(cacheable=true)
     public static String getTrialsForContact(Id recordId) {
 
         // Input parameters, to get from Contact record

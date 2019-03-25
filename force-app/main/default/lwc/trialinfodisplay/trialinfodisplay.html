@@ -1,25 +1,26 @@
 <template>
     <lightning-card title="Clinical Trial Suggestions" icon-name="standard:goals">
       
-        <template if:true={contact.data}>
+        
             <div class="slds-m-around_medium">
              <!---template if:true={NCI}> -->
                 <p>Title: </p>
                 <a href={url} class=".slds-text-link">Link to Trials</a>
                 
+                <p>String: {stringJson}</p>
+                
                 <p class="slds-m-bottom_small">
                         <lightning-button label="Access Questionare" onclick={handleLoad}></lightning-button>
                 </p>   
 
-            <lightning-badge label={id}></lightning-badge>
-            <!--/template-->
+            <!---/template-->
 
             <!--if no data-->
             <template if:true={error}></template>
 
            
              </div>
-         </template>
+        
         
 
     </lightning-card>
