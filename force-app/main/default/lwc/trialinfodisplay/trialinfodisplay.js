@@ -4,6 +4,7 @@ import getTestData from '@salesforce/apex/CreateTestData.getTestData';
 
 const FIELDS = [
     //contact fields that are being queried
+    'Contact.Id',
     'Contact.Name',
     'Contact.Email',
     'Contact.HealthCloudGA__Gender__c',
@@ -16,14 +17,20 @@ const FIELDS = [
 export default class trialinfodisplay extends LightningElement {
     @api recordId;
     @track NCI;
-
+    @track recId = ' ';
+ 
     @wire(getRecord, { recordId: '$recordId', fields: FIELDS })
     contact;
+  
+    //recId = this.contact.data.fields.Id.value;
+ 
+    get id(){
+        return this.contact.data.fields.Id.value;
+    }
 
-    //call out with contact ID
-
-    //return apex class with data --
-    @wire(getTestData)
+/** 
+    //when LWC loads - call apx class w/ contact ID
+    @wire(getTestData, {recordId: '$recId'})
     idReturned({ error, data }) {
         if (data){
             this.NCI = data;
@@ -33,6 +40,8 @@ export default class trialinfodisplay extends LightningElement {
             this.NCI=undefined;
         }
     }      
+
+    */
     
     
     get url(){
