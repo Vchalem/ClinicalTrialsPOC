@@ -1,0 +1,1155 @@
+[
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1553186344645,
+            "changeTime": 1553186432444,
+            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1553186344643,
+            "changeTime": 1553186344643,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1553199012463,
+            "changeTime": 1553199012463,
+            "contentHash": "1c26d4fb9f37aac887845e3840c2466cba2d0112",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1553199493407,
+            "changeTime": 1553199493407,
+            "contentHash": "3f65889be478090279675da01d75ce8a20d9da12",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes/CreateTestData.cls",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes/CreateTestData.cls",
+            "isDirectory": false,
+            "size": 405,
+            "modifiedTime": 1553295370275,
+            "changeTime": 1553295370275,
+            "contentHash": "11b2ae3538d919ba8bf46a378f53fd1be6ed39ba",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes/CreateTestData.cls-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/classes/CreateTestData.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1553199012464,
+            "changeTime": 1553199012464,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/flexipages",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1553187594167,
+            "changeTime": 1553187594167,
+            "contentHash": "32f1b6b4eb2c3f479592c779097b710dcc7020dd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/flexipages/Contact_Record_Page.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/flexipages/Contact_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 6618,
+            "modifiedTime": 1553187594167,
+            "changeTime": 1553187594167,
+            "contentHash": "c262483489e89f647f7caa3d99ea70c93e51ac7a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/layouts",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/layouts",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1553187594163,
+            "changeTime": 1553187594163,
+            "contentHash": "9504649cd909e8ce4976da4ed33c7229f3b1824e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/layouts/Contact-HealthCloudGA__Patient Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/layouts/Contact-HealthCloudGA__Patient Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 8073,
+            "modifiedTime": 1553187594163,
+            "changeTime": 1553187594163,
+            "contentHash": "c675bf17e1d3f2c77301d1d1b912a0bb01328991",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1553199513067,
+            "changeTime": 1553199513067,
+            "contentHash": "6c6b27179dbe55d2f1f309e3bccde6c9068e4dde",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1553204414147,
+            "changeTime": 1553204414147,
+            "contentHash": "afec862f522a1b5d2a9594be4bad46c5d6387d5b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.html",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.html",
+            "isDirectory": false,
+            "size": 735,
+            "modifiedTime": 1553294659059,
+            "changeTime": 1553230955585,
+            "contentHash": "245a102f6fa57ef3bdf7ea8b6d0377f468b52002",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1264,
+            "modifiedTime": 1553295665056,
+            "changeTime": 1553295665056,
+            "isWorkspace": false,
+            "contentHash": "7583b7ffe06954db326c22d177e19643a8a86ecb"
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.js-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/lwc/trialinfodisplay/trialinfodisplay.js-meta.xml",
+            "isDirectory": false,
+            "size": 475,
+            "modifiedTime": 1553123094030,
+            "changeTime": 1553186571998,
+            "contentHash": "9cf2b859de76675ff0e55dc97ec8696a50558cf5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1553187594066,
+            "changeTime": 1553187594066,
+            "contentHash": "b37456c4530be810dc040f50da72eda09addfb0a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact",
+            "isDirectory": true,
+            "size": 256,
+            "modifiedTime": 1553187594131,
+            "changeTime": 1553187594131,
+            "contentHash": "9a1d7933ddca6c0ba88ca066851f9e7fa8fa7c10",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/Contact.object-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/Contact.object-meta.xml",
+            "isDirectory": false,
+            "size": 5186,
+            "modifiedTime": 1553187594067,
+            "changeTime": 1553187594067,
+            "contentHash": "1c1cd89ff4d0066689c858297a54a772d16cc99e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fieldSets",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fieldSets",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1553187594067,
+            "changeTime": 1553187594067,
+            "contentHash": "5c8df0def1de8b416241e4d2b8851345be02b4c0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fieldSets/HealthCloudGA__NewIndividualContactFields.fieldSet-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fieldSets/HealthCloudGA__NewIndividualContactFields.fieldSet-meta.xml",
+            "isDirectory": false,
+            "size": 287,
+            "modifiedTime": 1553187594067,
+            "changeTime": 1553187594067,
+            "contentHash": "c3b4e41afde8d80857c076e1540bd4d2f57d25ff",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields",
+            "isDirectory": true,
+            "size": 1344,
+            "modifiedTime": 1553187594082,
+            "changeTime": 1553187594082,
+            "contentHash": "30ac5962c0094fc7c544984f40399a7a602c25ff",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/AccountId.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/AccountId.field-meta.xml",
+            "isDirectory": false,
+            "size": 221,
+            "modifiedTime": 1553187594068,
+            "changeTime": 1553187594068,
+            "contentHash": "a5c3f07ba3a348335908401256dd2d9998990fcf",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/AssistantName.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/AssistantName.field-meta.xml",
+            "isDirectory": false,
+            "size": 202,
+            "modifiedTime": 1553187594068,
+            "changeTime": 1553187594068,
+            "contentHash": "84c07618a25ba4a26dcbb7fdea901e9cfb7bdfea",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/AssistantPhone.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/AssistantPhone.field-meta.xml",
+            "isDirectory": false,
+            "size": 203,
+            "modifiedTime": 1553187594068,
+            "changeTime": 1553187594068,
+            "contentHash": "d7e98ed90f81499c3b80a6121310c8e81353db12",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Birthdate.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Birthdate.field-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1553187594069,
+            "changeTime": 1553187594069,
+            "contentHash": "104e9a00a8886c6a98a247cf4d799fca91cb5cf6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/CleanStatus.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/CleanStatus.field-meta.xml",
+            "isDirectory": false,
+            "size": 200,
+            "modifiedTime": 1553187594069,
+            "changeTime": 1553187594069,
+            "contentHash": "b2a6d6cc0822db9616bc68852769a9ce9e31b8cb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Department.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Department.field-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1553187594069,
+            "changeTime": 1553187594069,
+            "contentHash": "3b56db2ab17440e863bd220f7b949c6666a8aa21",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Description.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Description.field-meta.xml",
+            "isDirectory": false,
+            "size": 200,
+            "modifiedTime": 1553187594070,
+            "changeTime": 1553187594070,
+            "contentHash": "57d79a023b3596766f7369502cb5e2bac6a5cb92",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/DoNotCall.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/DoNotCall.field-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1553187594070,
+            "changeTime": 1553187594070,
+            "contentHash": "a69a1b0e3f0e15fe44c968e2d0c859d8a264cb1a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Email.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Email.field-meta.xml",
+            "isDirectory": false,
+            "size": 194,
+            "modifiedTime": 1553187594070,
+            "changeTime": 1553187594070,
+            "contentHash": "59513f0c3aba9cf2ca1fa13dd33c44eba996ef42",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Fax.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Fax.field-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1553187594071,
+            "changeTime": 1553187594071,
+            "contentHash": "7531bb94080187ff2cb7ab86658d706842b99d1f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HasOptedOutOfEmail.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HasOptedOutOfEmail.field-meta.xml",
+            "isDirectory": false,
+            "size": 207,
+            "modifiedTime": 1553187594071,
+            "changeTime": 1553187594071,
+            "contentHash": "ff5f1905a424ffb80a86c672ce8a2484010686e7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HasOptedOutOfFax.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HasOptedOutOfFax.field-meta.xml",
+            "isDirectory": false,
+            "size": 205,
+            "modifiedTime": 1553187594071,
+            "changeTime": 1553187594071,
+            "contentHash": "8436af1a1e25d1251260bd40b57c3d17b97ff22d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__Age__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__Age__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 1181,
+            "modifiedTime": 1553187594072,
+            "changeTime": 1553187594072,
+            "contentHash": "10170caf6d3a43b669ff1db0971bb6a2ce9c98c4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__BirthDate__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__BirthDate__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 884,
+            "modifiedTime": 1553187594072,
+            "changeTime": 1553187594072,
+            "contentHash": "28ecc74402c1854d955de9287ca7c5c486f278ce",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__CountryOfBirth__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__CountryOfBirth__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 515,
+            "modifiedTime": 1553187594072,
+            "changeTime": 1553187594072,
+            "contentHash": "e0f248ae40d944a5d1bfc2d8191b1078b8b5620d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__CreatedFromLead__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__CreatedFromLead__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 394,
+            "modifiedTime": 1553187594073,
+            "changeTime": 1553187594073,
+            "contentHash": "12d8b97cd41619e8878511e1d646016aa59bfd8e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__DeceasedDate__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__DeceasedDate__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 435,
+            "modifiedTime": 1553187594073,
+            "changeTime": 1553187594073,
+            "contentHash": "9d996d32ec7d9a2ee45d46a59e7a13109fa390b4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__Gender__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__Gender__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 1165,
+            "modifiedTime": 1553187594074,
+            "changeTime": 1553187594074,
+            "contentHash": "572714c41353ddc81a159e1b76c51bc1b741ee39",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__IndividualId__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__IndividualId__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 417,
+            "modifiedTime": 1553187594074,
+            "changeTime": 1553187594074,
+            "contentHash": "2abcc73bc3a290b9099fdd6e6e8e68877f1afd9a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__IndividualType__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__IndividualType__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 726,
+            "modifiedTime": 1553187594075,
+            "changeTime": 1553187594075,
+            "contentHash": "0d9dbe2b8f88f60f0bda8faa6e566de45785c0f0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__MedicalRecordNumber__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__MedicalRecordNumber__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 658,
+            "modifiedTime": 1553187594075,
+            "changeTime": 1553187594075,
+            "contentHash": "e82654bc0cd9c194fdeab688d8884e8b0adbbd94",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__PreferredName__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__PreferredName__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 428,
+            "modifiedTime": 1553187594076,
+            "changeTime": 1553187594076,
+            "contentHash": "fb01b7ae24cfe96b25324ea83f308355d51e57a7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__PrimaryLanguage__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__PrimaryLanguage__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 516,
+            "modifiedTime": 1553187594076,
+            "changeTime": 1553187594076,
+            "contentHash": "6d1f6165179cc0df11fe2984f68205605a42b2ca",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__SecondaryLanguage__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__SecondaryLanguage__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 520,
+            "modifiedTime": 1553187594076,
+            "changeTime": 1553187594076,
+            "contentHash": "17074b8389b8029cdcc72987c5ed96b39a236341",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__SourceSystemId__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__SourceSystemId__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 534,
+            "modifiedTime": 1553187594077,
+            "changeTime": 1553187594077,
+            "contentHash": "f3a4bf0ad8e1b8c700d77172610af86416fd475c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__SourceSystem__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HealthCloudGA__SourceSystem__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 767,
+            "modifiedTime": 1553187594077,
+            "changeTime": 1553187594077,
+            "contentHash": "aa03a29c62869b550cea9acbd312f28ac013f7ca",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HomePhone.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/HomePhone.field-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1553187594077,
+            "changeTime": 1553187594077,
+            "contentHash": "0bf76b491bbd8c15dd147134365be4f3c3f46c31",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Jigsaw.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Jigsaw.field-meta.xml",
+            "isDirectory": false,
+            "size": 195,
+            "modifiedTime": 1553187594078,
+            "changeTime": 1553187594078,
+            "contentHash": "4ada28399de9ac97f1dc447fb1aaa8b887d11974",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/LastCURequestDate.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/LastCURequestDate.field-meta.xml",
+            "isDirectory": false,
+            "size": 159,
+            "modifiedTime": 1553187594078,
+            "changeTime": 1553187594078,
+            "contentHash": "dda4a3e4f235d3020ac7ec9ecad60f97db34e5ff",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/LastCUUpdateDate.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/LastCUUpdateDate.field-meta.xml",
+            "isDirectory": false,
+            "size": 158,
+            "modifiedTime": 1553187594078,
+            "changeTime": 1553187594078,
+            "contentHash": "831121050c56f562af9389f75edae3a5ab0351f1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/LeadSource.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/LeadSource.field-meta.xml",
+            "isDirectory": false,
+            "size": 225,
+            "modifiedTime": 1553187594079,
+            "changeTime": 1553187594079,
+            "contentHash": "2edc10a4308166ada8b0fc2bece939fb3eea84b8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/MailingAddress.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/MailingAddress.field-meta.xml",
+            "isDirectory": false,
+            "size": 203,
+            "modifiedTime": 1553187594079,
+            "changeTime": 1553187594079,
+            "contentHash": "2aee360d036169b3a3b599183c72b43d549f6b61",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/MobilePhone.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/MobilePhone.field-meta.xml",
+            "isDirectory": false,
+            "size": 200,
+            "modifiedTime": 1553187594079,
+            "changeTime": 1553187594079,
+            "contentHash": "877087142debc4ed3ae3ae152908d60f1e5b8e4e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Name.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Name.field-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1553187594080,
+            "changeTime": 1553187594080,
+            "contentHash": "68769f37d93e5a8c8bc5ad8c2581f0f06ddca5f9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/OtherAddress.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/OtherAddress.field-meta.xml",
+            "isDirectory": false,
+            "size": 201,
+            "modifiedTime": 1553187594080,
+            "changeTime": 1553187594080,
+            "contentHash": "dd9820d5134fc39ed321237cbdef5a60b5776771",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/OtherPhone.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/OtherPhone.field-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1553187594080,
+            "changeTime": 1553187594080,
+            "contentHash": "3d50c3aaf57f7e42a001693e02e91ae0222af0e8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/OwnerId.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/OwnerId.field-meta.xml",
+            "isDirectory": false,
+            "size": 219,
+            "modifiedTime": 1553187594081,
+            "changeTime": 1553187594081,
+            "contentHash": "52c2c64fa2e6525fc461c88e9c37849e89259798",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Phone.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Phone.field-meta.xml",
+            "isDirectory": false,
+            "size": 194,
+            "modifiedTime": 1553187594081,
+            "changeTime": 1553187594081,
+            "contentHash": "d58ccb85259d8a88abf129f4ea89ea8304963487",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/ReportsToId.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/ReportsToId.field-meta.xml",
+            "isDirectory": false,
+            "size": 224,
+            "modifiedTime": 1553187594081,
+            "changeTime": 1553187594081,
+            "contentHash": "7252f1ae0d0fff985c8d3d75c2c66b704d304262",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Title.field-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/fields/Title.field-meta.xml",
+            "isDirectory": false,
+            "size": 194,
+            "modifiedTime": 1553187594082,
+            "changeTime": 1553187594082,
+            "contentHash": "8a48fbd36a0119a80ca1a7b0a48a57b35bd03141",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/recordTypes",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/recordTypes",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1553187594130,
+            "changeTime": 1553187594130,
+            "contentHash": "e2f293f81a3491b98c0be83c51a30d39ce06f12a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/recordTypes/HealthCloudGA__IndustriesBusiness.recordType-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/recordTypes/HealthCloudGA__IndustriesBusiness.recordType-meta.xml",
+            "isDirectory": false,
+            "size": 60809,
+            "modifiedTime": 1553187594117,
+            "changeTime": 1553187594117,
+            "contentHash": "8d26cb459d41f8056e9579cfdf5722a428a1fc7e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/recordTypes/HealthCloudGA__IndustriesIndividual.recordType-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/recordTypes/HealthCloudGA__IndustriesIndividual.recordType-meta.xml",
+            "isDirectory": false,
+            "size": 60706,
+            "modifiedTime": 1553187594130,
+            "changeTime": 1553187594130,
+            "contentHash": "6ac86563ae8700f72eb32078e1c2c66121e0b90a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/validationRules",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/validationRules",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1553187594131,
+            "changeTime": 1553187594131,
+            "contentHash": "c514e9b9a76bc47205a02d442ea1ecf0f6be67b7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/validationRules/HealthCloudGA__NotAllowingConversionFromIndividual.validationRule-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/validationRules/HealthCloudGA__NotAllowingConversionFromIndividual.validationRule-meta.xml",
+            "isDirectory": false,
+            "size": 362,
+            "modifiedTime": 1553187594131,
+            "changeTime": 1553187594131,
+            "contentHash": "b38bd893e0894eb7035cb994267b49f7797c6119",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/validationRules/HealthCloudGA__NotAllowingConversionToIndividual.validationRule-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/validationRules/HealthCloudGA__NotAllowingConversionToIndividual.validationRule-meta.xml",
+            "isDirectory": false,
+            "size": 501,
+            "modifiedTime": 1553187594131,
+            "changeTime": 1553187594131,
+            "contentHash": "079f6289f49aef7fad130fe6e1b1e7dc2c0e5c6a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/webLinks",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/webLinks",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1553187594131,
+            "changeTime": 1553187594131,
+            "contentHash": "fd68e2cbf4eb228412cf847d7660bb31223c6b07",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/webLinks/HealthCloudGA__AddRelation.webLink-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/objects/Contact/webLinks/HealthCloudGA__AddRelation.webLink-meta.xml",
+            "isDirectory": false,
+            "size": 460,
+            "modifiedTime": 1553187594131,
+            "changeTime": 1553187594131,
+            "contentHash": "b2d60e058d843ea805d0e112b3673a3113aa92d1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1553187594210,
+            "changeTime": 1553187594210,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 26607,
+            "modifiedTime": 1553199012499,
+            "changeTime": 1553199012499,
+            "contentHash": "9330f15490a17a4f8214335ac9f52bbaca8dd61c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 12464,
+            "modifiedTime": 1553187594176,
+            "changeTime": 1553187594176,
+            "contentHash": "f12f7e951d2c116ae1af6a0eac4f7806a4e735bd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 12464,
+            "modifiedTime": 1553187594187,
+            "changeTime": 1553187594187,
+            "contentHash": "f12f7e951d2c116ae1af6a0eac4f7806a4e735bd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 12802,
+            "modifiedTime": 1553187594182,
+            "changeTime": 1553187594182,
+            "contentHash": "15d3e38413c212cba44c1c95f2268eebfd3548af",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/settings",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/settings",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1553187593906,
+            "changeTime": 1553187593906,
+            "contentHash": "51a767161ecb76df77be39042e42cbb2d91005fb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/settings/OrgPreference.settings-meta.xml",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC/force-app/main/default/settings/OrgPreference.settings-meta.xml",
+            "isDirectory": false,
+            "size": 6512,
+            "modifiedTime": 1553187593906,
+            "changeTime": 1553187593906,
+            "contentHash": "3d0e2f7611b77c2fc1ee9d803e73f1087ad463f4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ClinicalTrialsPOC",
+        {
+            "sourcePath": "/Users/vchalem/ClinicalTrialsPOC",
+            "isDirectory": true,
+            "size": 352,
+            "modifiedTime": 1553199513068,
+            "changeTime": 1553199513068,
+            "contentHash": "807b7aaa92451ec641bfc0e0a5d2bf0e1e9005a1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
