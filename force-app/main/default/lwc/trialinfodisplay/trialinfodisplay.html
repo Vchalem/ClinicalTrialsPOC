@@ -3,31 +3,40 @@
       
         
             <div class="slds-m-around_medium">
-             <!---template if:true={NCI}> -->
-     
-               
-               <!---var url = "https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=";
-               // var link = url.concat(this.NCI)-->
-               
-               
 
-               <ul> 
+         
                <template for:each={trials} for:item="trial">
+
+                    <a key={trial.nci_id} data-item={trial.nci_id} href={url} onclick={handleItemClicked}>{trial.brief_title}</a>
+                    <!--<a key={trial.nci_id} href={url} onclick={selectHandler}>{trial.brief_title}</a>-->
+                </template>
                 
+            </div>          
+
+                    <!---
                     <li key={trial.nci_id}>
                             <div class="slds-p-vertical_xx-small">
                                 <p>{trial.brief_title}</p>
+
+                                        
                                 
+                                <a href="javascript:window.open('https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=')" target="_blank">{trial.brief_title}</a>
+                                
+                                <a href="'https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id='{trial.nci_id}" target="_blank">{trial.brief_title}</a>
+                                
+
+
                                 <lightning-layout-item>
-                                        <lightning-button label={trial.nci_id} icon-name="utility:chevronright" icon-position="right" onclick={navigateToWebPage}></lightning-button>
+                                        <lightning-button label={trial.nci_id} icon-name="utility:chevronright" icon-position="right" onclick={connectedCallBack({ci_id})}></lightning-button>
                                 </lightning-layout-item>
 
 
                             </div>
 
+
                                 
                     </li>
-                    ------
+                -->
 
                    <!--- <a href="javascript:window.open('https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=')" target="_blank">{trial.brief_title}</a></p> -->
 
@@ -39,8 +48,7 @@
 
                     <!-- href - call JS method, JS method, openWindow() and concatenate url-->
                    
-                </template>
-                </ul>
+                
 
             <!--
                 <lightning-button
@@ -58,7 +66,7 @@
             <template if:true={error}></template>
 
            
-             </div>
+            
         
         
 

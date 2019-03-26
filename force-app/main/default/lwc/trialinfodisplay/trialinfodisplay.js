@@ -8,6 +8,8 @@ export default class trialinfodisplay extends NavigationMixin(LightningElement) 
     @api recordId;
     @track trials;
     @track trialsString;
+    @track url;
+    @track selectedItem;
  
    
 
@@ -20,54 +22,26 @@ export default class trialinfodisplay extends NavigationMixin(LightningElement) 
             this.error = undefined;
         } else if (error) {
             this.error = error;
+            
             this.trialsString = undefined;
             this.trials=undefined
         }
     }
 
-    
-    url = 'https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=';
-
-    navigateToWebPage() {
-        // Navigate to a URL
-        this[NavigationMixin.Navigate]({
-            type: 'standard__webPage',
-            attributes: {
-                url: "salesforce.com"
-            }
-        },
-       );
+    handleItemClicked(event) {
+        this.selectedItem = event.target.dataset.item;
+        var url2 = "https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=";
+        var link = url2.concat(this.selectedItem);
+        this.url=link;
     }
 
- 
+    selectHandler(event) {
+        this.selectedItem = event.target.dataset.item;
+        const trialId = event.data
+        var url2 = "https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=";
+        var link = url2.concat(event.data);
+        this.url=link;
 
-    
+    }
+
 }
-
-
-    
-    //idReturned({ error, data }) {
-
-
-        // if (data){
-          //  this.NCI = data;
-           // this.error=undefined;
-        //}else if (error){
-          //  this.error=error;
-          //  this.NCI=undefined;
-        //}
-   // }      
-
-    
-    
-    
-    //get url(){
-      //  var url = "https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=";
-       // var link = url.concat(this.NCI);
-        //return link;
-   // }
-
-    //handleLoad(){
-        //will be an action unto a flow screen...
-    //}
-
