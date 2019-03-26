@@ -1,10 +1,10 @@
 import { LightningElement, track, api, wire } from 'lwc';
-//import getTestData from '@salesforce/apex/CreateTestData.getTestData';
 import getTrialsForContact from '@salesforce/apex/CT_ClinicalTrialUtil.getTrialsForContact';
+import { NavigationMixin } from 'lightning/navigation';
 
 
 
-export default class trialinfodisplay extends LightningElement {
+export default class trialinfodisplay extends NavigationMixin(LightningElement) {
     @api recordId;
     @track trials;
     @track trialsString;
@@ -24,6 +24,22 @@ export default class trialinfodisplay extends LightningElement {
             this.trials=undefined
         }
     }
+
+    
+    url = 'https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=';
+
+    navigateToWebPage() {
+        // Navigate to a URL
+        this[NavigationMixin.Navigate]({
+            type: 'standard__webPage',
+            attributes: {
+                url: "salesforce.com"
+            }
+        },
+       );
+    }
+
+ 
 
     
 }

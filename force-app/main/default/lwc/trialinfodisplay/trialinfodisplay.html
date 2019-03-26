@@ -13,16 +13,41 @@
 
                <ul> 
                <template for:each={trials} for:item="trial">
+                
+                    <li key={trial.nci_id}>
+                            <div class="slds-p-vertical_xx-small">
+                                <p>{trial.brief_title}</p>
+                                
+                                <lightning-layout-item>
+                                        <lightning-button label={trial.nci_id} icon-name="utility:chevronright" icon-position="right" onclick={navigateToWebPage}></lightning-button>
+                                </lightning-layout-item>
 
-                    <li key={trial.nci_id}><a href="https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=#{trial.nci_id}">{trial.brief_title}</a></li> 
+
+                            </div>
+
+                                
+                    </li>
+                    ------
+
+                   <!--- <a href="javascript:window.open('https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=')" target="_blank">{trial.brief_title}</a></p> -->
+
+
+                   <!--- li key={trial.nci_id}><a href="https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=#{trial.nci_id}">{trial.brief_title}</a></li> -->
+                   <!---<li key={trial.nci_id}><a href="javascript:window.open('https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=')">{trial.brief_title}</a></li> -->
+                   
+                   <!--<li key={trial.nci_id}></li><a href="javascript:void(window.open('www.google.com'))">{trial.brief_title}</a> -->
+
                     <!-- href - call JS method, JS method, openWindow() and concatenate url-->
-
+                   
                 </template>
                 </ul>
 
-               <!--- <a href={url} class=".slds-text-link">brief_title</a> -->
-
             <!--
+                <lightning-button
+                    label={}
+                    onclick={navigateToContact}
+                    class="slds-m-right_x-small"
+                ></lightning-button>
                 <p class="slds-m-bottom_small">
                         <lightning-button label="Access Questionare" onclick={handleLoad}></lightning-button>
                 </p>   -->
