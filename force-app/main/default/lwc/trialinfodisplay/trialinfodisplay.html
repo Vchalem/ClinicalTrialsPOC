@@ -1,13 +1,13 @@
 <template>
     <lightning-card title="Clinical Trial Suggestions" icon-name="standard:goals">
       
-        
             <div class="slds-m-around_medium">
 
                  <table style="border:1px black solid">
                 <tr>
                     <th>Trial</th>
-                    <th>Getting Started</th> 
+                    <th>Check <br /> Elligibility</th> 
+                    <th>Submit <br /> Referral</th> 
                 </tr>    
              
                <template for:each={trials} for:item="trial">
@@ -17,10 +17,23 @@
                     </td>
 
                     <td key={trial.nci_id}>
-                        <lightning-layout-item key={trial.nci_id}>
-                            <lightning-button key={trial.nci_id} label="Go" icon-name="utility:chevronright" icon-position="right" onclick={goToFlow}></lightning-button>
-                        </lightning-layout-item>
+                                <lightning-button-icon class="slds-icon slds-icon-text-default slds-icon_large" aria-hidden="true" key={trial.nci_id} 
+                                icon-name="utility:cases"
+                                slot="actions"
+                                onclick={goToFlow}>
+                                </lightning-button-icon>
+                        
                     </td>     
+
+                    <td key={trial.nci_id}>
+
+                            <lightning-button-icon class="slds-icon_large" key={trial.nci_id} 
+                            icon-name="utility:agent_session"
+                            slot="actions"
+                            onclick={goToFlow}>
+                            </lightning-button-icon>
+                    </td>     
+
                 </tr>
                 
                 </template>
