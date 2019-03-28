@@ -5,10 +5,12 @@ public class CT_ClinicalTrialUtil {
         public String nci_id { get; set; }           // trial.nci_id
         public String brief_title { get; set; }        // trial.brief_title
         public String brief_summary { get; set; }      // trial.brief_summary
+        public String brief_title_abbr { get; set; }
         
-        public Trial(String idString, String titleString, String summaryString) {
+        public Trial(String idString, String titleString, String summaryString, String titleAbbrString) {
             nci_id = idString;
             brief_title = titleString;
+            brief_title_abbr = titleAbbrString;
             brief_summary = summaryString;
         }
     }
@@ -110,6 +112,10 @@ public class CT_ClinicalTrialUtil {
                                         // Read entire invoice object, including its array of line items.
                                         Trial trial = (CT_ClinicalTrialUtil.Trial)parser.readValueAs(CT_ClinicalTrialUtil.Trial.class);
                                         system.debug('Trial id: ' + trial.nci_id);
+
+                                        // Create a shorter version of the title, for display
+                                        trial.brief_title_abbr = trial.brief_title.abbreviate(20);
+
                                         // For debugging purposes, serialize again to verify what was parsed.
                                         String s = JSON.serialize(trial);
                                         system.debug('Serialized trial: ' + s);
