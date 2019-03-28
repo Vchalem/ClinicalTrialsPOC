@@ -15,6 +15,75 @@ public class CT_ClinicalTrialUtil {
         }
     }
 
+    
+    public class TrialInput {
+        public String state { get; set; }           
+        public String gender { get; set; }   
+
+        public TrialInput(String stateString, String genderString) {
+            state = stateString;
+            gender = genderString;
+        } 
+        
+        public TrialInput() {
+        }     
+    }
+
+    // Query the record to get input parameters, result to be used in Lightning Components (record based view)
+    @AuraEnabled(cacheable=true)
+    public static String getTrialsForRecord(Id recordId) {
+
+        String result = '';
+        TrialInput input;
+        
+        // Output parameters, as list of returned trials
+        List<CT_ClinicalTrialUtil.Trial> trials = new List<CT_ClinicalTrialUtil.Trial>();
+        
+        if (recordId.getSobjectType() == Account.SObjectType) {
+            input = getInputForAccount(recordId);
+        } else if (recordId.getSobjectType() == Contact.SObjectType) {
+            input = getInputForContact(recordId);
+        } else throw new System.SObjectException('Local trials not available for this record type');
+
+        // Make the callout if we have a valid state and gender
+        if (String.isNotBlank(input.state) && String.isNotBlank(input.gender)) {
+            result = makeCallout(input.state, input.gender, trials);
+        }
+
+        // Return the serialized trial wrapper class, or null
+        String out = result.equalsIgnoreCase('success!') ? JSON.serialize(trials) : null;
+        System.debug('Output: ' + out);
+        return out;
+
+    }
+
+    public static TrialInput getInputForContact(Id recordId) {
+        TrialInput input = new TrialInput();
+
+        Contact c = [SELECT MailingAddress, HealthCloudGA__Gender__c FROM Contact WHERE Id = :recordId];
+            
+        // Access the compound address field MailingAddress
+        Address addr = (Address)c.MailingAddress;
+        if (null != addr) input.state = addr.getState();
+
+        input.gender = c.HealthCloudGA__Gender__c;
+
+        return input;
+    }
+    
+    public static TrialInput getInputForAccount(Id recordId) {
+        TrialInput input = new TrialInput();
+        
+        Account a = [SELECT HealthCloudGA__PrimaryContact__r.MailingAddress, HealthCloudGA__PrimaryContact__r.HealthCloudGA__Gender__c FROM Account WHERE Id = :recordId];
+            
+        // Access the compound address field MailingAddress
+        Address addr = (Address)a.HealthCloudGA__PrimaryContact__r.MailingAddress;
+        if (null != addr) input.state = addr.getState();
+
+        input.gender = a.HealthCloudGA__PrimaryContact__r.HealthCloudGA__Gender__c;
+
+        return input;
+    }
 
     // Query the record to get input parameters, result to be used in Lightning Components (record based view)
     @AuraEnabled(cacheable=true)
