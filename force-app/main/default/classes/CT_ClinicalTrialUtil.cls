@@ -14,6 +14,42 @@ public class CT_ClinicalTrialUtil {
             brief_summary = summaryString;
         }
     }
+
+
+    // Query the record to get input parameters, result to be used in Lightning Components (record based view)
+    @AuraEnabled(cacheable=true)
+    public static String getTrialsForAccount(Id recordId) {
+
+       // Input parameters, to get from Contact record
+        String state = '';
+        String gender = '';
+        String result = '';
+        
+        // Output parameters, as list of returned trials
+        List<CT_ClinicalTrialUtil.Trial> trials = new List<CT_ClinicalTrialUtil.Trial>();
+        
+        // Compare the SObject type of the record Id to Contact
+        if (recordId.getSobjectType() == Account.SObjectType) {
+            Account a = [SELECT HealthCloudGA__PrimaryContact__r.MailingAddress, HealthCloudGA__PrimaryContact__r.HealthCloudGA__Gender__c FROM Account WHERE Id = :recordId];
+            
+            // Access the compound address field MailingAddress
+            Address addr = (Address)a.HealthCloudGA__PrimaryContact__r.MailingAddress;
+            if (null != addr) state = addr.getState();
+
+            gender = a.HealthCloudGA__PrimaryContact__r.HealthCloudGA__Gender__c;
+            
+        } else throw new System.SObjectException('Local trials not available for this record type');
+        
+        // Make the callout if we have a valid state and gender
+        if (String.isNotBlank(state) && String.isNotBlank(gender)) {
+            result = makeCallout(state,gender,trials);
+        }
+
+        // Return the serialized trial wrapper class, or null
+        String out = result.equalsIgnoreCase('success!') ? JSON.serialize(trials) : null;
+        System.debug('Output: ' + out);
+        return out;
+    }
     
     // Query the record to get input parameters, result to be used in Lightning Components (record based view)
     @AuraEnabled(cacheable=true)
