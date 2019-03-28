@@ -4,12 +4,28 @@
         
             <div class="slds-m-around_medium">
 
-         
+                 <table style="border:1px black solid">
+                <tr>
+                    <th>Trial</th>
+                    <th>Getting Started</th> 
+                </tr>    
+             
                <template for:each={trials} for:item="trial">
+                <tr key={trial.nci_id}>
+                    <td key={trial.nci_id}>
+                             <a key={trial.nci_id} data-item={trial.nci_id} href={url} target="_blank" onclick={handleItemClicked}>{trial.brief_title_abbr}</a>
+                    </td>
 
-                    <a key={trial.nci_id} data-item={trial.nci_id} href={url} onclick={handleItemClicked}>{trial.brief_title}</a>
-                    <!--<a key={trial.nci_id} href={url} onclick={selectHandler}>{trial.brief_title}</a>-->
+                    <td key={trial.nci_id}>
+                        <lightning-layout-item key={trial.nci_id}>
+                            <lightning-button key={trial.nci_id} label="Go" icon-name="utility:chevronright" icon-position="right" onclick={goToFlow}></lightning-button>
+                        </lightning-layout-item>
+                    </td>     
+                </tr>
+                
                 </template>
+                
+            </table>
                 
             </div>          
 
