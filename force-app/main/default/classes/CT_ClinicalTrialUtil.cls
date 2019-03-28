@@ -114,7 +114,7 @@ public class CT_ClinicalTrialUtil {
                                         system.debug('Trial id: ' + trial.nci_id);
 
                                         // Create a shorter version of the title, for display
-                                        trial.brief_title_abbr = trial.brief_title.abbreviate(20);
+                                        trial.brief_title_abbr = trial.brief_title.abbreviate(25);
 
                                         // For debugging purposes, serialize again to verify what was parsed.
                                         String s = JSON.serialize(trial);
