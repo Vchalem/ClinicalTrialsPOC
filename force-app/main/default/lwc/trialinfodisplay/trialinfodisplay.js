@@ -10,6 +10,7 @@ export default class trialinfodisplay extends NavigationMixin(LightningElement) 
     @track trialsString;
     @track url;
     @track selectedItem;
+    @track url3;
  
    
 
@@ -35,13 +36,18 @@ export default class trialinfodisplay extends NavigationMixin(LightningElement) 
         this.url=link;
     }
 
-    selectHandler(event) {
+    navigateToWebPage(event) {
+        // Navigate to a URL
         this.selectedItem = event.target.dataset.item;
-        const trialId = event.data
         var url2 = "https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=";
-        var link = url2.concat(event.data);
-        this.url=link;
-
+        var link = url2.concat(this.selectedItem);
+        this.url3="https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/trial-guide/detailschecklist.pdf";
+        this[NavigationMixin.Navigate]({
+            type: 'standard__webPage',
+            attributes: {
+                url: this.url3
+            }
+        });
     }
 
 }
