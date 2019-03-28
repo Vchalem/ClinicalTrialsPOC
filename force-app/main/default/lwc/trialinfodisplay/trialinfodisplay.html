@@ -13,7 +13,7 @@
                <template for:each={trials} for:item="trial">
                 <tr key={trial.nci_id}>
                     <td key={trial.nci_id}>
-                             <a key={trial.nci_id} data-item={trial.nci_id} href={url} target="_blank" onclick={handleItemClicked}>{trial.brief_title_abbr}</a>
+                             <a key={trial.nci_id} data-item={trial.nci_id} href={url} target="_blank" title={trial.brief_summary} onclick={handleItemClicked}>{trial.brief_title_abbr}</a>
                     </td>
 
                     <td key={trial.nci_id}>
