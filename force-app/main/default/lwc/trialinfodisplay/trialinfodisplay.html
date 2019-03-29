@@ -5,8 +5,7 @@
 
                  <table style="border:1px black solid">
                 <tr>
-                    <th>Trial</th>
-                    <th>Checklist</th> 
+                    <th>Trial</th> 
                     <th>Recommend</th> 
                 </tr>    
              
@@ -14,23 +13,14 @@
                 <tr key={trial.nci_id}>
                     <td key={trial.nci_id}>
                              <a key={trial.nci_id} data-item={trial.nci_id} href={url} target="_blank" title={trial.brief_summary} onclick={handleItemClicked}>{trial.brief_title_abbr}</a>
-                    </td>
-
-                    <td key={trial.nci_id}>
-                                <lightning-button-icon key={trial.nci_id} class="slds-icon slds-icon-text-default slds-icon_large" aria-hidden="true" 
-                                icon-name="utility:cases"
-                                slot="actions"
-                                onclick={navigateToWebPage}>
-                                </lightning-button-icon>
-                        
-                    </td>     
+                    </td>  
 
                     <td key={trial.nci_id}>
 
                             <lightning-button-icon class="slds-icon_large" key={trial.nci_id} 
                             icon-name="utility:agent_session"
                             slot="actions"
-                            onclick={goToFlow}>
+                            onclick={navigateToWebPage}>
                             </lightning-button-icon>
                     </td>     
 

@@ -1,5 +1,5 @@
 import { LightningElement, track, api, wire } from 'lwc';
-import getTrialsForContact from '@salesforce/apex/CT_ClinicalTrialUtil.getTrialsForContact';
+import getTrialsForRecord from '@salesforce/apex/CT_ClinicalTrialUtil.getTrialsForRecord';
 import { NavigationMixin } from 'lightning/navigation';
 
 
@@ -15,7 +15,7 @@ export default class trialinfodisplay extends NavigationMixin(LightningElement) 
    
 
     //when LWC loads - call apx class w/ contact ID
-    @wire(getTrialsForContact, {recordId: '$recordId'})
+    @wire(getTrialsForRecord, {recordId: '$recordId'})
     wiredContact({ error, data }) {
         if (data) {
             this.trialsString = data;
@@ -36,12 +36,9 @@ export default class trialinfodisplay extends NavigationMixin(LightningElement) 
         this.url=link;
     }
 
-    navigateToWebPage(event) {
+    navigateToWebPage() {
         // Navigate to a URL
-        this.selectedItem = event.target.dataset.item;
-        var url2 = "https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/v?id=";
-        var link = url2.concat(this.selectedItem);
-        this.url3="https://www.cancer.gov/about-cancer/treatment/clinical-trials/search/trial-guide/detailschecklist.pdf";
+        this.url3="https://lizzhc19.lightning.force.com/survey/runtimeApp.app?invitationId=0Ki1U000000Uwu5&surveyName=recommend_for_clinicals&UUID=e252d749-961c-4017-95a7-42bfe792e052";
         this[NavigationMixin.Navigate]({
             type: 'standard__webPage',
             attributes: {
